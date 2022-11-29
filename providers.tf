@@ -7,3 +7,13 @@ provider "aws" {
     }
   }
 }
+
+provider "postgresql" {
+  host            = "demo-rds-postgres.c7ks221pgyez.us-east-1.rds.amazonaws.com"
+  port            = 5432
+  database        = "demo"
+  username        = "postgres"
+  password        = "postgres"
+  sslmode         = "require"
+  connect_timeout = 15
+}
