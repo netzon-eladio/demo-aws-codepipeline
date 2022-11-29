@@ -1,2 +1,3 @@
 # demo-aws-codepipeline
-Proof of concept of running Terraform in VPC using CodePipeline
+
+Demo repository for running Terraform on CodePipeline inside a VPC
