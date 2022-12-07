@@ -16,3 +16,9 @@ resource "postgresql_database" "my_db" {
   connection_limit  = -1
   allow_connections = true
 }
+
+resource "postgresql_database" "my_db_2" {
+  name              = "my_db_2"
+  connection_limit  = -1
+  allow_connections = true
+}
